@@ -36,3 +36,31 @@ h1 {
     font-weight: bold;
     font-size: 21px;
 }
+
+@media(max-width:600px) {
+    .hero p {
+        font-size: 18px;
+    }
+    .header {
+        font-size: 28px;
+        margin-bottom: 0;
+    }
+    .h2-hero {
+        font-size: 11px;
+        margin-top: 0;
+    }
+}
+
+@media(max-width:991px) {
+    .hero p {
+        font-size: 28px;
+    }
+    .header {
+        font-size: 38px;
+        margin-bottom: 0;
+    }
+    .h2-hero {
+        font-size: 15px;
+        margin-top: 0;
+    }
+}
