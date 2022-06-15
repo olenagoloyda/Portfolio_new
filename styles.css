@@ -2,6 +2,10 @@
     --border-gradient: linear-gradient(106.4deg, rgb(255, 104, 192) 11.1%, rgb(104, 84, 249) 81.3%);
 }
 
+* {
+    background-color: rgb(174, 240, 240);
+}
+
 .hero {
     font-family: 'Poppins', sans-serif;
     padding-top: 30px;
@@ -125,4 +129,14 @@ h1 {
 .about-project {
     font-size: 14px;
     text-align: justify;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.links a {
+    color: rgba(0, 0, 0, 0.918);
+    font-weight: bold;
 }
