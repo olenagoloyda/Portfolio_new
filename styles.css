@@ -1,3 +1,38 @@
-h1 {
+:root {
+    --border-gradient: linear-gradient(106.4deg, rgb(255, 104, 192) 11.1%, rgb(104, 84, 249) 81.3%);
+}
+
+.hero {
     font-family: 'Poppins', sans-serif;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    background-color: rgb(174, 240, 240);
+}
+
+.hero p {
+    font-size: 38px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.photo {
+    max-width: 40%;
+}
+
+h1 {
+    background: #FFA100;
+    background: linear-gradient(to right, #FFA100 0%, #FF00AA 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.header {
+    font-size: 58px;
+    font-weight: bold;
+}
+
+.h2-hero {
+    font-weight: bold;
+    font-size: 21px;
 }
