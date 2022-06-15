@@ -1,9 +1,6 @@
 :root {
     --border-gradient: linear-gradient(106.4deg, rgb(255, 104, 192) 11.1%, rgb(104, 84, 249) 81.3%);
-}
-
-* {
-    background-color: rgb(174, 240, 240);
+    --background-light: rgb(229, 253, 253);
 }
 
 .hero {
@@ -11,7 +8,7 @@
     padding-top: 30px;
     padding-bottom: 30px;
     text-align: center;
-    background-color: rgb(174, 240, 240);
+    background-color: var(--background-light);
 }
 
 .hero p {
@@ -41,73 +38,36 @@ h1 {
     font-size: 21px;
 }
 
-@media(max-width:600px) {
-    .hero p {
-        font-size: 18px;
-    }
-    .header {
-        font-size: 28px;
-        margin-bottom: 0;
-    }
-    .h2-hero {
-        font-size: 11px;
-        margin-top: 0;
-    }
-}
-
-@media(max-width:991px) {
-    .hero p {
-        font-size: 28px;
-    }
-    .header {
-        font-size: 38px;
-        margin-bottom: 0;
-    }
-    .h2-hero {
-        font-size: 15px;
-        margin-top: 0;
-    }
-}
-
 .tech-stack {
+    background-color: var(--background-light);
     font-family: 'Poppins', sans-serif;
-    padding: 50px 0;
+    padding: 70px 0;
     text-align: center;
 }
 
-.h3__tech-stack {
-    font-weight: bold;
-    font-size: 48px;
-}
-
-.p__tech-stack {
-    font-size: 22px;
-}
-
-.icons-container {
-    margin-top: 40px;
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.projects {
-    font-family: 'Poppins', sans-serif;
-    padding: 50px 0;
-    text-align: center;
-}
-
+.h3__tech-stack,
 .h3__projects {
     font-weight: bold;
     font-size: 48px;
 }
 
+.p__tech-stack,
 .p__projects {
     font-size: 22px;
 }
 
+.icons-container,
 .projects__container {
+    margin-top: 60px;
     display: flex;
     justify-content: space-evenly;
+}
+
+.projects {
+    background-color: var(--background-light);
+    font-family: 'Poppins', sans-serif;
+    padding: 50px 0;
+    text-align: center;
 }
 
 .project-card {
@@ -117,8 +77,8 @@ h1 {
     box-shadow: 5px 5px 20px rgb(182, 182, 182);
 }
 
-.project img {
-    border-radius: 7px;
+.project-card img {
+    border-radius: 15px;
 }
 
 .project-name {
@@ -139,4 +99,60 @@ h1 {
 .links a {
     color: rgba(0, 0, 0, 0.918);
     font-weight: bold;
+}
+
+@media(max-width:600px) {
+    .hero p {
+        font-size: 22px;
+    }
+    .header {
+        font-size: 48px;
+        margin-bottom: 0;
+    }
+    .h2-hero {
+        font-size: 21px;
+        margin-top: 0;
+    }
+    .projects {
+        padding-top: 15px;
+    }
+    .photo {
+        max-width: 60%;
+        margin-top: 20px;
+    }
+}
+
+@media(max-width:991px) {
+    .hero p {
+        font-size: 28px;
+    }
+    .p__tech-stack,
+    .p__projects {
+        font-size: 18px;
+    }
+    .header {
+        font-size: 38px;
+        margin-bottom: 0;
+    }
+    .h2-hero {
+        font-size: 15px;
+        margin-top: 0;
+    }
+    .h3__tech-stack,
+    .h3__projects {
+        font-weight: bold;
+        font-size: 38px;
+    }
+    .projects__container {
+        display: block;
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+    .project-card {
+        padding: 15px;
+        border-radius: 15px;
+        margin: 25px;
+        box-shadow: 5px 5px 20px rgb(182, 182, 182);
+    }
 }
