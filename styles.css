@@ -11,7 +11,7 @@
     background-color: var(--background-light);
 }
 
-.hero p {
+.hero__p {
     font-size: 38px;
     font-weight: bold;
     margin-bottom: 0;
@@ -101,12 +101,14 @@ h1 {
     font-weight: bold;
 }
 
-@media(max-width:600px) {
-    .hero p {
+
+/* 
+@media(max-width:900px) {
+    .hero__p {
         font-size: 22px;
     }
     .header {
-        font-size: 48px;
+        font-size: 38px;
         margin-bottom: 0;
     }
     .h2-hero {
@@ -120,39 +122,68 @@ h1 {
         max-width: 60%;
         margin-top: 20px;
     }
-}
+    .icons-container,
+    .projects__container {
+        margin-top: 30px;
+    }
+} */
 
-@media(max-width:991px) {
-    .hero p {
-        font-size: 28px;
+@media(max-width:601px) {
+    .hero__p {
+        font-size: 38px;
     }
     .p__tech-stack,
     .p__projects {
         font-size: 18px;
     }
     .header {
-        font-size: 38px;
+        font-size: 45px;
         margin-bottom: 0;
     }
+    .hero {
+        padding-bottom: 5px;
+    }
     .h2-hero {
-        font-size: 15px;
+        margin-top: 15px;
+        margin-bottom: 20px;
+        font-size: 19px;
         margin-top: 0;
+        line-height: 32px;
+    }
+    .tech-stack {
+        padding-top: 30px;
+    }
+    .p__tech-stack,
+    .p__projects {
+        font-size: 17px;
     }
     .h3__tech-stack,
     .h3__projects {
         font-weight: bold;
         font-size: 38px;
     }
+    .projects {
+        padding-top: 10px;
+    }
+    .icons-container,
+    .projects__container {
+        margin-top: 40px;
+    }
     .projects__container {
         display: block;
         width: 80%;
         margin: 0 auto;
-        margin-top: 30px;
     }
     .project-card {
         padding: 15px;
         border-radius: 15px;
         margin: 25px;
         box-shadow: 5px 5px 20px rgb(182, 182, 182);
+    }
+    .about-project {
+        font-size: 10px;
+    }
+    .links {
+        font-size: 10px;
     }
 }
