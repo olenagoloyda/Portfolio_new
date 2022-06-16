@@ -101,32 +101,65 @@ h1 {
     font-weight: bold;
 }
 
-
-/* 
-@media(max-width:900px) {
+@media(max-width:991px) {
     .hero__p {
+        font-size: 38px;
+    }
+    .p__tech-stack,
+    .p__projects {
         font-size: 22px;
     }
     .header {
-        font-size: 38px;
+        font-size: 45px;
         margin-bottom: 0;
     }
-    .h2-hero {
-        font-size: 21px;
-        margin-top: 0;
-    }
-    .projects {
-        padding-top: 15px;
+    .hero {
+        padding-bottom: 15px;
     }
     .photo {
-        max-width: 60%;
-        margin-top: 20px;
+        width: 60%;
+        margin: 0 auto;
     }
-    .icons-container,
+    .h2-hero {
+        margin-top: 15px;
+        margin-bottom: 20px;
+        font-size: 17px;
+        margin-top: 0;
+        line-height: 32px;
+    }
+    .tech-stack {
+        padding-top: 90px;
+    }
+    .p__tech-stack,
+    .p__projects {
+        font-size: 27px;
+    }
+    .h3__tech-stack,
+    .h3__projects {
+        font-weight: bold;
+        font-size: 38px;
+    }
+    .projects {
+        padding-top: 40px;
+    }
     .projects__container {
-        margin-top: 30px;
+        display: block;
+        width: 100%;
+        margin: 0 auto;
     }
-} */
+    .project-card {
+        padding: 15px;
+        border-radius: 15px;
+        margin: 25px;
+        box-shadow: 5px 5px 20px rgb(182, 182, 182);
+    }
+    .about-project {
+        font-size: 18px;
+    }
+    .links {
+        font-size: 18px;
+    }
+}
 
 @media(max-width:601px) {
     .hero__p {
@@ -171,7 +204,7 @@ h1 {
     }
     .projects__container {
         display: block;
-        width: 80%;
+        width: 9 100%;
         margin: 0 auto;
     }
     .project-card {
@@ -181,9 +214,9 @@ h1 {
         box-shadow: 5px 5px 20px rgb(182, 182, 182);
     }
     .about-project {
-        font-size: 10px;
+        font-size: 13px;
     }
     .links {
-        font-size: 10px;
+        font-size: 13px;
     }
 }
