@@ -112,17 +112,24 @@ body {
 
 .project-card img {
     border-radius: 15px;
+    height: 200px;
 }
 
 .project-name {
-    padding: 10px;
+    padding: 20px;
+    width: 350px;
+    height: 100px;
     font-weight: bold;
     color: var(--text-color);
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 30px;
 }
 
 .about-project {
     font-size: 14px;
     text-align: justify;
+    height: 150px;
 }
 
 .links {
@@ -165,17 +172,21 @@ body {
     .hero__p {
         font-size: 38px;
     }
+
     .header {
         font-size: 45px;
         margin-bottom: 0;
     }
+
     .hero {
         padding-bottom: 15px;
     }
+
     .photo {
         width: 60%;
         margin: 0 auto;
     }
+
     .h2-hero {
         margin-top: 15px;
         margin-bottom: 20px;
@@ -183,33 +194,41 @@ body {
         margin-top: 0;
         line-height: 32px;
     }
+
     .tech-stack {
         padding-top: 90px;
     }
+
     .sections-subheader {
         font-size: 27px;
     }
+
     .sections-header {
         font-weight: bold;
         font-size: 38px;
     }
+
     .projects {
         padding-top: 40px;
     }
+
     .projects__container {
         display: block;
         width: 100%;
         margin: 0 auto;
     }
+
     .project-card {
         padding: 15px;
         border-radius: 15px;
         margin: 25px;
         box-shadow: 5px 5px 20px rgb(182, 182, 182);
     }
+
     .about-project {
         font-size: 18px;
     }
+
     .links {
         font-size: 18px;
     }
@@ -219,13 +238,16 @@ body {
     .hero__p {
         font-size: 38px;
     }
+
     .header {
         font-size: 45px;
         margin-bottom: 0;
     }
+
     .hero {
         padding-bottom: 5px;
     }
+
     .h2-hero {
         margin-top: 15px;
         margin-bottom: 20px;
@@ -233,43 +255,54 @@ body {
         margin-top: 0;
         line-height: 32px;
     }
+
     .tech-stack {
         padding-top: 30px;
     }
+
     .sections-subheader {
         font-size: 17px;
     }
+
     .sections-header {
         font-weight: bold;
         font-size: 38px;
     }
+
     .projects {
         padding-top: 10px;
     }
+
     .icons-container,
     .projects__container {
         margin-top: 40px;
     }
+
     .projects__container {
         display: block;
         width: 9 100%;
         margin: 0 auto;
     }
+
     .project-card {
         padding: 15px;
         border-radius: 15px;
         margin: 25px;
         box-shadow: 5px 5px 20px rgb(182, 182, 182);
     }
+
     .about-project {
         font-size: 13px;
     }
+
     .links {
         font-size: 13px;
     }
+
     .ul_footer {
         justify-content: center;
     }
+
     .footer_links {
         font-size: 13px;
         margin-left: 10px;
@@ -292,6 +325,17 @@ body {
     font-size: 58px;
     font-weight: 600;
     color: var(--text-color);
+}
+
+.languges_content {
+    display: flex;
+}
+
+.languges_content p {
+    margin-left: 20px;
+    margin-top: 17px;
+    font-size: 20px;
+    align-self: flex-end;
 }
 
 .about-content {
@@ -325,30 +369,37 @@ body {
         font-size: 58px;
         text-align: center;
     }
+
     .about-section h2 {
         font-size: 38px;
         text-align: center;
     }
+
     .about-content {
         max-width: 100%;
     }
+
     .about-section h3 {
         padding-top: 30px;
         font-size: 22px;
         opacity: 0.9;
         color: rgb(4, 88, 184);
     }
+
     .courses-section {
         list-style: none;
         padding-left: 0px;
     }
+
     .about-li {
         display: flex;
         justify-content: space-between;
     }
+
     li p {
         font-size: 15px;
     }
+
     hr {
         margin-top: 50px;
     }
@@ -362,35 +413,43 @@ body {
         padding-bottom: 30px;
         margin: 0;
     }
+
     .about-section h1 {
         font-size: 48px;
         text-align: center;
     }
+
     .about-section h2 {
         font-size: 38px;
         text-align: center;
     }
+
     .about-content {
         font-size: 13px;
         text-align: justify;
     }
+
     .about-section h3 {
         padding-top: 30px;
         font-size: 22px;
         opacity: 0.9;
         color: rgb(4, 88, 184);
     }
+
     .courses-section {
         list-style: none;
         padding-left: 0px;
     }
+
     .about-li {
         display: flex;
         justify-content: space-between;
     }
+
     li p {
         font-size: 10px;
     }
+
     hr {
         margin-top: 50px;
     }
